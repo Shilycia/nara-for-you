@@ -53,7 +53,7 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     })
     document.getElementById('startButton').addEventListener('click', function() {
-        let scrollDuration = 15000; // durasi scroll dalam milidetik (misalnya 5000 ms = 5 detik)
+        let scrollDuration = 20000; // durasi scroll dalam milidetik (misalnya 5000 ms = 5 detik)
         let scrollHeight = document.body.scrollHeight - window.innerHeight;
         let scrollStep = scrollHeight / (scrollDuration / 15); // menghitung langkah scroll
         let scrollInterval = setInterval(function() {
